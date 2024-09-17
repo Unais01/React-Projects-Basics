@@ -1,0 +1,96 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading Styles */
+h1,
+h2,
+h3,
+h4 {
+  color: #333;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-size: 1em;
+  margin-bottom: 5px;
+}
+
+/* List Styles */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+li a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+/* Button Styles */
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:focus {
+  outline: none;
+}
+
+/* Detailed View Styles */
+.details {
+  margin-top: 20px;
+}
+
+.details div {
+  margin-bottom: 20px;
+}
+
+.details ul {
+  padding-left: 20px;
+}
