@@ -23,6 +23,11 @@ const projects = [
     image: "./Reviewslider.png",
     link: "https://reviews-slide-reactjs.netlify.app/",
   },
-  // Add more projects here
+  {
+    id: 5,
+    name: "Accordion",
+    image: "./Accordion.png",
+    link: "https://accordion-layout-react.netlify.app/",
+  },
 ];
 export default projects;
